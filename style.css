@@ -297,13 +297,23 @@ a {
 .Social {
     background: rgba(173, 171, 169, 0.25);
     border-radius: 0px 0px 10px 10px;
-    height: 75px;
+    height: 74px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-left: 0px;
 }
 
 .Social a img {
-    padding: 17px 52px;
+    padding: 17px 54px;
     height: 40px;
     width: 40px;
+    display: block;
+}
+
+.Social a >last-chaild {
+    margin-left: 6px;
 }
 
 .Social a img:hover {
